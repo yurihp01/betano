@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAF76D9D27FE174F00E499B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76D9C27FE174F00E499B2 /* AppDelegate.swift */; };
+		DAF76D9F27FE174F00E499B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76D9E27FE174F00E499B2 /* SceneDelegate.swift */; };
+		DAF76DA127FE174F00E499B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DA027FE174F00E499B2 /* ViewController.swift */; };
+		DAF76DA427FE175000E499B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF76DA227FE175000E499B2 /* Main.storyboard */; };
+		DAF76DA627FE175700E499B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF76DA527FE175700E499B2 /* Assets.xcassets */; };
+		DAF76DA927FE175700E499B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF76DA727FE175700E499B2 /* LaunchScreen.storyboard */; };
+		DAF76DB427FE175700E499B2 /* BetanoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DB327FE175700E499B2 /* BetanoTests.swift */; };
+		DAF76DBE27FE175700E499B2 /* BetanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DBD27FE175700E499B2 /* BetanoUITests.swift */; };
+		DAF76DC027FE175700E499B2 /* BetanoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DBF27FE175700E499B2 /* BetanoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAF76DB027FE175700E499B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF76D9127FE174F00E499B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF76D9827FE174F00E499B2;
+			remoteInfo = Betano;
+		};
+		DAF76DBA27FE175700E499B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF76D9127FE174F00E499B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF76D9827FE174F00E499B2;
+			remoteInfo = Betano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAF76D9927FE174F00E499B2 /* Betano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Betano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF76D9C27FE174F00E499B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAF76D9E27FE174F00E499B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAF76DA027FE174F00E499B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAF76DA327FE175000E499B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF76DA527FE175700E499B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF76DA827FE175700E499B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAF76DAA27FE175700E499B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF76DAF27FE175700E499B2 /* BetanoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetanoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF76DB327FE175700E499B2 /* BetanoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoTests.swift; sourceTree = "<group>"; };
+		DAF76DB927FE175700E499B2 /* BetanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetanoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF76DBD27FE175700E499B2 /* BetanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoUITests.swift; sourceTree = "<group>"; };
+		DAF76DBF27FE175700E499B2 /* BetanoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF76D9627FE174F00E499B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF76DAC27FE175700E499B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF76DB627FE175700E499B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF76D9027FE174F00E499B2 = {
+			isa = PBXGroup;
+			children = (
+				DAF76D9B27FE174F00E499B2 /* Betano */,
+				DAF76DB227FE175700E499B2 /* BetanoTests */,
+				DAF76DBC27FE175700E499B2 /* BetanoUITests */,
+				DAF76D9A27FE174F00E499B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF76D9A27FE174F00E499B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76D9927FE174F00E499B2 /* Betano.app */,
+				DAF76DAF27FE175700E499B2 /* BetanoTests.xctest */,
+				DAF76DB927FE175700E499B2 /* BetanoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF76D9B27FE174F00E499B2 /* Betano */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76D9C27FE174F00E499B2 /* AppDelegate.swift */,
+				DAF76D9E27FE174F00E499B2 /* SceneDelegate.swift */,
+				DAF76DA027FE174F00E499B2 /* ViewController.swift */,
+				DAF76DA227FE175000E499B2 /* Main.storyboard */,
+				DAF76DA527FE175700E499B2 /* Assets.xcassets */,
+				DAF76DA727FE175700E499B2 /* LaunchScreen.storyboard */,
+				DAF76DAA27FE175700E499B2 /* Info.plist */,
+			);
+			path = Betano;
+			sourceTree = "<group>";
+		};
+		DAF76DB227FE175700E499B2 /* BetanoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DB327FE175700E499B2 /* BetanoTests.swift */,
+			);
+			path = BetanoTests;
+			sourceTree = "<group>";
+		};
+		DAF76DBC27FE175700E499B2 /* BetanoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DBD27FE175700E499B2 /* BetanoUITests.swift */,
+				DAF76DBF27FE175700E499B2 /* BetanoUITestsLaunchTests.swift */,
+			);
+			path = BetanoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF76D9827FE174F00E499B2 /* Betano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF76DC327FE175700E499B2 /* Build configuration list for PBXNativeTarget "Betano" */;
+			buildPhases = (
+				DAF76D9527FE174F00E499B2 /* Sources */,
+				DAF76D9627FE174F00E499B2 /* Frameworks */,
+				DAF76D9727FE174F00E499B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Betano;
+			productName = Betano;
+			productReference = DAF76D9927FE174F00E499B2 /* Betano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAF76DAE27FE175700E499B2 /* BetanoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF76DC627FE175700E499B2 /* Build configuration list for PBXNativeTarget "BetanoTests" */;
+			buildPhases = (
+				DAF76DAB27FE175700E499B2 /* Sources */,
+				DAF76DAC27FE175700E499B2 /* Frameworks */,
+				DAF76DAD27FE175700E499B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF76DB127FE175700E499B2 /* PBXTargetDependency */,
+			);
+			name = BetanoTests;
+			productName = BetanoTests;
+			productReference = DAF76DAF27FE175700E499B2 /* BetanoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAF76DB827FE175700E499B2 /* BetanoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF76DC927FE175700E499B2 /* Build configuration list for PBXNativeTarget "BetanoUITests" */;
+			buildPhases = (
+				DAF76DB527FE175700E499B2 /* Sources */,
+				DAF76DB627FE175700E499B2 /* Frameworks */,
+				DAF76DB727FE175700E499B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF76DBB27FE175700E499B2 /* PBXTargetDependency */,
+			);
+			name = BetanoUITests;
+			productName = BetanoUITests;
+			productReference = DAF76DB927FE175700E499B2 /* BetanoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF76D9127FE174F00E499B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DAF76D9827FE174F00E499B2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					DAF76DAE27FE175700E499B2 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DAF76D9827FE174F00E499B2;
+					};
+					DAF76DB827FE175700E499B2 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DAF76D9827FE174F00E499B2;
+					};
+				};
+			};
+			buildConfigurationList = DAF76D9427FE174F00E499B2 /* Build configuration list for PBXProject "Betano" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF76D9027FE174F00E499B2;
+			productRefGroup = DAF76D9A27FE174F00E499B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF76D9827FE174F00E499B2 /* Betano */,
+				DAF76DAE27FE175700E499B2 /* BetanoTests */,
+				DAF76DB827FE175700E499B2 /* BetanoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF76D9727FE174F00E499B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF76DA927FE175700E499B2 /* LaunchScreen.storyboard in Resources */,
+				DAF76DA627FE175700E499B2 /* Assets.xcassets in Resources */,
+				DAF76DA427FE175000E499B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF76DAD27FE175700E499B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF76DB727FE175700E499B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF76D9527FE174F00E499B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF76DA127FE174F00E499B2 /* ViewController.swift in Sources */,
+				DAF76D9D27FE174F00E499B2 /* AppDelegate.swift in Sources */,
+				DAF76D9F27FE174F00E499B2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF76DAB27FE175700E499B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF76DB427FE175700E499B2 /* BetanoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF76DB527FE175700E499B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF76DBE27FE175700E499B2 /* BetanoUITests.swift in Sources */,
+				DAF76DC027FE175700E499B2 /* BetanoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAF76DB127FE175700E499B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF76D9827FE174F00E499B2 /* Betano */;
+			targetProxy = DAF76DB027FE175700E499B2 /* PBXContainerItemProxy */;
+		};
+		DAF76DBB27FE175700E499B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF76D9827FE174F00E499B2 /* Betano */;
+			targetProxy = DAF76DBA27FE175700E499B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAF76DA227FE175000E499B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF76DA327FE175000E499B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF76DA727FE175700E499B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF76DA827FE175700E499B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF76DC127FE175700E499B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAF76DC227FE175700E499B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF76DC427FE175700E499B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VX7282S3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Betano/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuri.Betano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF76DC527FE175700E499B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VX7282S3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Betano/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuri.Betano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAF76DC727FE175700E499B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VX7282S3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuri.BetanoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Betano.app/Betano";
+			};
+			name = Debug;
+		};
+		DAF76DC827FE175700E499B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VX7282S3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuri.BetanoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Betano.app/Betano";
+			};
+			name = Release;
+		};
+		DAF76DCA27FE175700E499B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VX7282S3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuri.BetanoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Betano;
+			};
+			name = Debug;
+		};
+		DAF76DCB27FE175700E499B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VX7282S3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuri.BetanoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Betano;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF76D9427FE174F00E499B2 /* Build configuration list for PBXProject "Betano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF76DC127FE175700E499B2 /* Debug */,
+				DAF76DC227FE175700E499B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF76DC327FE175700E499B2 /* Build configuration list for PBXNativeTarget "Betano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF76DC427FE175700E499B2 /* Debug */,
+				DAF76DC527FE175700E499B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF76DC627FE175700E499B2 /* Build configuration list for PBXNativeTarget "BetanoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF76DC727FE175700E499B2 /* Debug */,
+				DAF76DC827FE175700E499B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF76DC927FE175700E499B2 /* Build configuration list for PBXNativeTarget "BetanoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF76DCA27FE175700E499B2 /* Debug */,
+				DAF76DCB27FE175700E499B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF76D9127FE174F00E499B2 /* Project object */;
+}
