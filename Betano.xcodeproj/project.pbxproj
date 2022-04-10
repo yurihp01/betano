@@ -231,6 +231,8 @@
 		DAF76DED27FE293A00E499B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DAF76DFC27FE446400E499B2 /* UITableView */,
+				DAF76DF527FE3ACE00E499B2 /* UICollectionView */,
 				DAF76DEE27FE294900E499B2 /* Betano.storyboard */,
 			);
 			path = View;
@@ -270,20 +272,10 @@
 			path = UITableView;
 			sourceTree = "<group>";
 		};
-		DAF76DFD27FE447100E499B2 /* Custom */ = {
-			isa = PBXGroup;
-			children = (
-				DAF76DFC27FE446400E499B2 /* UITableView */,
-				DAF76DF527FE3ACE00E499B2 /* UICollectionView */,
-			);
-			path = Custom;
-			sourceTree = "<group>";
-		};
 		DAF76E0827FE588600E499B2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				DAF76E0927FE589100E499B2 /* Extensions */,
-				DAF76DFD27FE447100E499B2 /* Custom */,
 			);
 			path = Utils;
 			sourceTree = "<group>";

@@ -24,6 +24,4 @@ class BetanoCoordinator: Coordinator {
         viewController.viewModel = BetanoViewModel()
         navigationController.pushViewController(viewController, animated: true)
     }
-    
-    
 }
