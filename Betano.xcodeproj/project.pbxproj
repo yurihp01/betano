@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA34221E2800DF350055BA43 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34221D2800DF350055BA43 /* String+Extensions.swift */; };
+		DA93CE6D27FFAAC5007DE0B8 /* BetanoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93CE6C27FFAAC5007DE0B8 /* BetanoCollectionView.swift */; };
 		DAF76D9D27FE174F00E499B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76D9C27FE174F00E499B2 /* AppDelegate.swift */; };
-		DAF76D9F27FE174F00E499B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76D9E27FE174F00E499B2 /* SceneDelegate.swift */; };
-		DAF76DA127FE174F00E499B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DA027FE174F00E499B2 /* ViewController.swift */; };
-		DAF76DA427FE175000E499B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF76DA227FE175000E499B2 /* Main.storyboard */; };
 		DAF76DA627FE175700E499B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF76DA527FE175700E499B2 /* Assets.xcassets */; };
 		DAF76DA927FE175700E499B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF76DA727FE175700E499B2 /* LaunchScreen.storyboard */; };
 		DAF76DB427FE175700E499B2 /* BetanoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DB327FE175700E499B2 /* BetanoTests.swift */; };
 		DAF76DBE27FE175700E499B2 /* BetanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DBD27FE175700E499B2 /* BetanoUITests.swift */; };
 		DAF76DC027FE175700E499B2 /* BetanoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DBF27FE175700E499B2 /* BetanoUITestsLaunchTests.swift */; };
+		DAF76DD827FE1A6F00E499B2 /* BetanoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DD727FE1A6F00E499B2 /* BetanoService.swift */; };
+		DAF76DDA27FE1D8500E499B2 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DD927FE1D8500E499B2 /* Sport.swift */; };
+		DAF76DDC27FE1E6300E499B2 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DDB27FE1E6300E499B2 /* Match.swift */; };
+		DAF76DDF27FE270300E499B2 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DDE27FE270300E499B2 /* AppCoordinator.swift */; };
+		DAF76DE227FE276000E499B2 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DE127FE276000E499B2 /* Coordinator.swift */; };
+		DAF76DE527FE286400E499B2 /* BetanoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DE427FE286400E499B2 /* BetanoViewController.swift */; };
+		DAF76DEF27FE294900E499B2 /* Betano.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF76DEE27FE294900E499B2 /* Betano.storyboard */; };
+		DAF76DF427FE384600E499B2 /* BetanoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DF327FE384600E499B2 /* BetanoCollectionViewCell.swift */; };
+		DAF76DFA27FE43E000E499B2 /* BetanoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DF927FE43E000E499B2 /* BetanoTableViewCell.swift */; };
+		DAF76DFF27FE44B000E499B2 /* BetanoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76DFE27FE44B000E499B2 /* BetanoTableView.swift */; };
+		DAF76E0127FE4FCB00E499B2 /* BetanoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76E0027FE4FCB00E499B2 /* BetanoViewModel.swift */; };
+		DAF76E0327FE510000E499B2 /* BetanoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76E0227FE510000E499B2 /* BetanoCoordinator.swift */; };
+		DAF76E0527FE517500E499B2 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76E0427FE517500E499B2 /* Storyboarded.swift */; };
+		DAF76E0727FE529400E499B2 /* BetanoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76E0627FE529400E499B2 /* BetanoError.swift */; };
+		DAF76E0B27FE58A400E499B2 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF76E0A27FE58A400E499B2 /* UIAlertController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA34221D2800DF350055BA43 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		DA93CE6C27FFAAC5007DE0B8 /* BetanoCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoCollectionView.swift; sourceTree = "<group>"; };
 		DAF76D9927FE174F00E499B2 /* Betano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Betano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF76D9C27FE174F00E499B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAF76D9E27FE174F00E499B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAF76DA027FE174F00E499B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DAF76DA327FE175000E499B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAF76DA527FE175700E499B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAF76DA827FE175700E499B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAF76DAA27FE175700E499B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +62,21 @@
 		DAF76DB927FE175700E499B2 /* BetanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetanoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF76DBD27FE175700E499B2 /* BetanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoUITests.swift; sourceTree = "<group>"; };
 		DAF76DBF27FE175700E499B2 /* BetanoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAF76DD727FE1A6F00E499B2 /* BetanoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoService.swift; sourceTree = "<group>"; };
+		DAF76DD927FE1D8500E499B2 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
+		DAF76DDB27FE1E6300E499B2 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		DAF76DDE27FE270300E499B2 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		DAF76DE127FE276000E499B2 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		DAF76DE427FE286400E499B2 /* BetanoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoViewController.swift; sourceTree = "<group>"; };
+		DAF76DEE27FE294900E499B2 /* Betano.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Betano.storyboard; sourceTree = "<group>"; };
+		DAF76DF327FE384600E499B2 /* BetanoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAF76DF927FE43E000E499B2 /* BetanoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoTableViewCell.swift; sourceTree = "<group>"; };
+		DAF76DFE27FE44B000E499B2 /* BetanoTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoTableView.swift; sourceTree = "<group>"; };
+		DAF76E0027FE4FCB00E499B2 /* BetanoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoViewModel.swift; sourceTree = "<group>"; };
+		DAF76E0227FE510000E499B2 /* BetanoCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoCoordinator.swift; sourceTree = "<group>"; };
+		DAF76E0427FE517500E499B2 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		DAF76E0627FE529400E499B2 /* BetanoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetanoError.swift; sourceTree = "<group>"; };
+		DAF76E0A27FE58A400E499B2 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +127,15 @@
 		DAF76D9B27FE174F00E499B2 /* Betano */ = {
 			isa = PBXGroup;
 			children = (
+				DAF76E0827FE588600E499B2 /* Utils */,
+				DAF76DE027FE274600E499B2 /* Common */,
+				DAF76DD227FE198A00E499B2 /* Data */,
+				DAF76DCC27FE195C00E499B2 /* Betano */,
 				DAF76D9C27FE174F00E499B2 /* AppDelegate.swift */,
-				DAF76D9E27FE174F00E499B2 /* SceneDelegate.swift */,
-				DAF76DA027FE174F00E499B2 /* ViewController.swift */,
-				DAF76DA227FE175000E499B2 /* Main.storyboard */,
 				DAF76DA527FE175700E499B2 /* Assets.xcassets */,
 				DAF76DA727FE175700E499B2 /* LaunchScreen.storyboard */,
 				DAF76DAA27FE175700E499B2 /* Info.plist */,
+				DAF76DDE27FE270300E499B2 /* AppCoordinator.swift */,
 			);
 			path = Betano;
 			sourceTree = "<group>";
@@ -125,6 +155,146 @@
 				DAF76DBF27FE175700E499B2 /* BetanoUITestsLaunchTests.swift */,
 			);
 			path = BetanoUITests;
+			sourceTree = "<group>";
+		};
+		DAF76DCC27FE195C00E499B2 /* Betano */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DED27FE293A00E499B2 /* View */,
+				DAF76DD127FE197D00E499B2 /* Coordinator */,
+				DAF76DD027FE197500E499B2 /* Controller */,
+				DAF76DCF27FE197000E499B2 /* ViewModel */,
+			);
+			path = Betano;
+			sourceTree = "<group>";
+		};
+		DAF76DCF27FE197000E499B2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76E0027FE4FCB00E499B2 /* BetanoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DAF76DD027FE197500E499B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DE427FE286400E499B2 /* BetanoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DAF76DD127FE197D00E499B2 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76E0227FE510000E499B2 /* BetanoCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		DAF76DD227FE198A00E499B2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DD427FE199300E499B2 /* Network */,
+				DAF76DD327FE198E00E499B2 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DAF76DD327FE198E00E499B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DD927FE1D8500E499B2 /* Sport.swift */,
+				DAF76DDB27FE1E6300E499B2 /* Match.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAF76DD427FE199300E499B2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DD727FE1A6F00E499B2 /* BetanoService.swift */,
+				DAF76E0627FE529400E499B2 /* BetanoError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DAF76DE027FE274600E499B2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DE127FE276000E499B2 /* Coordinator.swift */,
+				DAF76E0427FE517500E499B2 /* Storyboarded.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DAF76DED27FE293A00E499B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DEE27FE294900E499B2 /* Betano.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAF76DF127FE382100E499B2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DF927FE43E000E499B2 /* BetanoTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DAF76DF527FE3ACE00E499B2 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DFB27FE444A00E499B2 /* Cell */,
+				DA93CE6C27FFAAC5007DE0B8 /* BetanoCollectionView.swift */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		DAF76DFB27FE444A00E499B2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DF327FE384600E499B2 /* BetanoCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DAF76DFC27FE446400E499B2 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DF127FE382100E499B2 /* Cell */,
+				DAF76DFE27FE44B000E499B2 /* BetanoTableView.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		DAF76DFD27FE447100E499B2 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76DFC27FE446400E499B2 /* UITableView */,
+				DAF76DF527FE3ACE00E499B2 /* UICollectionView */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		DAF76E0827FE588600E499B2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76E0927FE589100E499B2 /* Extensions */,
+				DAF76DFD27FE447100E499B2 /* Custom */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DAF76E0927FE589100E499B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DAF76E0A27FE58A400E499B2 /* UIAlertController+Extensions.swift */,
+				DA34221D2800DF350055BA43 /* String+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +402,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAF76DA927FE175700E499B2 /* LaunchScreen.storyboard in Resources */,
+				DAF76DEF27FE294900E499B2 /* Betano.storyboard in Resources */,
 				DAF76DA627FE175700E499B2 /* Assets.xcassets in Resources */,
-				DAF76DA427FE175000E499B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +428,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAF76DA127FE174F00E499B2 /* ViewController.swift in Sources */,
+				DAF76DDF27FE270300E499B2 /* AppCoordinator.swift in Sources */,
+				DAF76DDA27FE1D8500E499B2 /* Sport.swift in Sources */,
+				DAF76E0527FE517500E499B2 /* Storyboarded.swift in Sources */,
+				DA34221E2800DF350055BA43 /* String+Extensions.swift in Sources */,
 				DAF76D9D27FE174F00E499B2 /* AppDelegate.swift in Sources */,
-				DAF76D9F27FE174F00E499B2 /* SceneDelegate.swift in Sources */,
+				DAF76DD827FE1A6F00E499B2 /* BetanoService.swift in Sources */,
+				DAF76E0127FE4FCB00E499B2 /* BetanoViewModel.swift in Sources */,
+				DAF76DE527FE286400E499B2 /* BetanoViewController.swift in Sources */,
+				DAF76DDC27FE1E6300E499B2 /* Match.swift in Sources */,
+				DAF76DFF27FE44B000E499B2 /* BetanoTableView.swift in Sources */,
+				DAF76DE227FE276000E499B2 /* Coordinator.swift in Sources */,
+				DA93CE6D27FFAAC5007DE0B8 /* BetanoCollectionView.swift in Sources */,
+				DAF76DF427FE384600E499B2 /* BetanoCollectionViewCell.swift in Sources */,
+				DAF76DFA27FE43E000E499B2 /* BetanoTableViewCell.swift in Sources */,
+				DAF76E0B27FE58A400E499B2 /* UIAlertController+Extensions.swift in Sources */,
+				DAF76E0327FE510000E499B2 /* BetanoCoordinator.swift in Sources */,
+				DAF76E0727FE529400E499B2 /* BetanoError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +481,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DAF76DA227FE175000E499B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAF76DA327FE175000E499B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DAF76DA727FE175700E499B2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +618,11 @@
 				INFOPLIST_FILE = Betano/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Betano;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +632,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,9 +648,11 @@
 				INFOPLIST_FILE = Betano/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Betano;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +662,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
